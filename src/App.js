@@ -9,6 +9,9 @@ import './App.css';
 export const calcularNovoSaldo = (valores, saldo) => {
   if (valores.transacao === 'deposito') {
     return saldo + parseInt(valores.valor)
+  } else if(valores.valor > saldo){
+    alert('Operação não autorizada: Valor do saque maior que o saldo')
+    return saldo
   } else {
     return saldo - parseInt(valores.valor);
   }
