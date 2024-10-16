@@ -1,4 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Testing Library React studies
+
+This was my first contact with React Testing Library on an effort to catch up to my task's stacks I wasn´t familiar with.
+
+It's was a Banking App simulation that aims to have all the transactions and calculation properly tested.
+
+![image](https://github.com/user-attachments/assets/87656a61-3f17-4bf7-83d3-a59d82292ce6)
+
 
 ## Available Scripts
 
